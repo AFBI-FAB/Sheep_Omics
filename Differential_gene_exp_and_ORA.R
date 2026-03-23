@@ -3,8 +3,8 @@ library(dplyr)
 library(DESeq2)
 
 # Differential gene expression analyses
-metaData <- read.csv("33lambs_all_phenotypes.csv")
-countData<-read.csv("33lambs_featureCounts.csv",sep=",", header=T, check.names=F)
+metaData <- read.csv("metaData.csv")
+countData<-read.csv("countsdata.csv",sep=",", header=T, check.names=F)
 
 orig_names <- names(countData) # keep a back-up copy of the original names
 geneID <- countData[,1] # Convert count data to a matrix of appropriate form that DEseq2 can read
