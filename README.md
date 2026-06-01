@@ -1,2 +1,2 @@
-# Multi-layer genomic and transcriptomic convergence identifies candidate regulators of feed efficiency in lambs.
+# Genome-wide Cis-Expression-Quantitative Trait Loci (eQTL) and Transcriptomic Signals Reveal Distinct Molecular Regulation Across Correlated Feed Efficiency Traits..
 
